@@ -29,8 +29,7 @@
             color:white;
         }
     </style>
-    
-    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet"> 
 </head>
 <body>
     <div class="container">
@@ -56,6 +55,25 @@
             </div>
         </nav>
     </div>
+
         @yield('content')
+    <div class="container-fluid footerTalk">
+        <nav class="navbar navbar-expand-md justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item text-center">
+                    <a class="nav-link fontWhite headerNavBtn text-center" href="#">About us</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link fontWhite headerNavBtn text-center" href="#">Privacy policy</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link fontWhite headerNavBtn text-center" href="#">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="col-12 text-center copyright">
+            2019© all rights reserved
+        </div>
+    </div>
 </body>
 </html>

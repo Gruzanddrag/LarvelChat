@@ -36,3 +36,32 @@ hr{
 .mainInfo{
     font-size: 1.5em;
 }
+
+.btnTalk{
+    margin-bottom:20em;
+    background-color: rgba(0,0,0,0);
+    color:white;
+    font-size: 2em;
+    padding: 0.8em 1em;
+    border-radius: 0.9em; 
+    border:3px solid white;
+}
+.btnTalk:hover{
+    color:white;
+    text-decoration: none;
+    border:3px solid #161616;
+    background-image: linear-gradient(90deg, #CE3737 , #4B40E1);
+}
+
+.footerTalk{
+    margin-top:10em;
+    background-color: #434343;
+}
+
+.footerTalk a{
+    font-size: 1em;
+}
+
+.copyright{
+    color:#777777;
+}

@@ -10,7 +10,8 @@
         </div>
         <hr>
         <div class="col-12 text-center">
-            <h3>To start chatting PUSH TO TALK</h3>
+            <h3 style="margin-bottom:3em;">To start chatting PUSH TO TALK</h3>
+            <a class="btnTalk" href="#">Talk</a>
         </div>
     </div>
 @endsection
