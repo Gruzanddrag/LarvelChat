@@ -1,12 +1,12 @@
+<div class="loginTalkBgDiv"><img class="img-fluidv loginTalkBg" src="{{ asset('/images/Group10.png')}}"></div>
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container loginTalkContent">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        {{-- <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
-
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
@@ -63,6 +63,9 @@
                     </form>
                 </div>
             </div>
+        </div> --}}
+        <div class="">
+
         </div>
     </div>
 </div>

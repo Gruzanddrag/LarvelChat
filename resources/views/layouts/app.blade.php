@@ -29,7 +29,11 @@
             color:white;
         }
     </style>
+
+    {{-- Styles --}}
+
     <link href="{{ asset('css/main.css') }}" rel="stylesheet"> 
+    <link href="{{ asset('css/login.css') }}" rel="stylesheet"> 
 </head>
 <body>
     <div class="container">
@@ -42,10 +46,10 @@
                 <div class="container">
                     <ul class="navbar-nav justify-content-end">
                         <li class="nav-item col-xl-2 text center ">
-                            <a class="nav-link fontWhite headerNavBtn text-center" href="#">Login</a>
+                            <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('login') }}">Login</a>
                         </li>
                         <li class="nav-item col-xl-2 text center">
-                            <a class="nav-link fontWhite headerNavBtn text-center" href="#">Registration</a>
+                            <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('register') }}">Registration</a>
                         </li>
                         <li class="nav-item col-xl-2 text center">
                                 <a class="nav-link fontWhite headerNavBtn text-center" href="#">News</a>
