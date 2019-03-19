@@ -45,13 +45,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="container">
                     <ul class="navbar-nav justify-content-end">
-                        <li class="nav-item col-xl-2 text center ">
-                            <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('login') }}">Login</a>
+                        <li class="nav-item col-md-6 col-lg-4 text center ">
+                            <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('login') }}">Sign IN/Sign UP</a>
                         </li>
-                        <li class="nav-item col-xl-2 text center">
-                            <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('register') }}">Registration</a>
-                        </li>
-                        <li class="nav-item col-xl-2 text center">
+                        <li class="nav-item col-xl-2 col-md-4  text center">
                                 <a class="nav-link fontWhite headerNavBtn text-center" href="#">News</a>
                         </li>
                     </ul>
