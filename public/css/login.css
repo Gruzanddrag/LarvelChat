@@ -1,18 +1,81 @@
-.loginTalkBg{
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
+.loginTalkBlurLayout{
+    border-radius: 2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-image: url("/./images/Group10.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: scale(1.2);
+    background-position: center -7em;
+    filter: blur(5px) brightness(1.5) contrast(0.7);
+    z-index:10;
+}
+.h1{
+    position: relative;
+    z-index: 20;
+} 
+.panel-body{
+    position: relative;
+    z-index: 20;
 }
 
-.loginTalkBgDiv {
-    position: fixed; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
+.loginTalkLoginBtn{
+    color: #686868;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0.2em 1.2em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    transition: color ease-out 0.25s;
+}
+
+.loginTalkLoginBtn:hover{
+    background: white;
+}
+.loginTalkLoginBtn:active{
+    outline: none;
+    color:black;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.loginTalkPanelLogin{
+    position: relative;
+    padding: 1em;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 2em;
+    overflow:hidden;
+}
+
+.help-block{
+    background-color:black;
+}
+
+.form-group{
+    margin-bottom: 1em;
+}
+
+.loginTalkFormDiv input{
+    outline: none;
+    font-size: 0.7em;
+    border: none;
+    border-radius: 1.1em;
+    padding: 0.5em 1em;
+}
+
+.loginTalkContent{
+    margin-top:3em;
+    margin-bottom: 7em;
+}
+
+
+@media (max-width: 575px){
+    
+    .loginTalkPanelLogin{
+        border-radius: 0;
+    }
 }
