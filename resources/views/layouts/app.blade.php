@@ -36,6 +36,7 @@
     <link href="{{ asset('css/login.css') }}" rel="stylesheet"> 
 </head>
 <body>
+    <div class="contentTalk">
     <div class="container">
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand talkLogo fontWhite" href="{{ url('/')}}">Talk</a>
@@ -56,8 +57,8 @@
             </div>
         </nav>
     </div>
-
         @yield('content')
+    </div>
     <div class="container-fluid footerTalk">
         <nav class="navbar navbar-expand-md justify-content-center">
             <ul class="navbar-nav">

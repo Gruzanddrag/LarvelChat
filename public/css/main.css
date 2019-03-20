@@ -8,6 +8,11 @@ body{
     margin-bottom: 4em;
 }
 
+.contentTalk{
+    position: relative;
+    min-height: 120%;
+}
+
 ::-webkit-scrollbar {width: 0;}
 
 @media (max-width: 770px){

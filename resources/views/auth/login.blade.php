@@ -24,9 +24,10 @@
             </li>
         </ul>
     </div>
-    <div class="row justify-content-center">
-        <div class="tab-content col-md-8 col-lg-6 col-xl-5" id="myTabContent">
-            <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+    <div class="row justify-content-center col-12">
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active " id="login" role="tabpanel" aria-labelledby="login-tab">
+                <div class="row justify-content-center col-12">
                     <div class="panel panel-default loginTalkPanelLogin">
                         <div class="loginTalkBlurLayout"></div>
                         <div class="panel-body">
@@ -70,6 +71,7 @@
                     <div class="row justify-content-center">
                     <a href="{{ route('password.request') }}">Forgot your password?</a>
                     </div>
+                </div>
             </div>
             <div class="tab-pane fade" id="reg" role="tabpanel" aria-labelledby="reg-tab">
                     <div class="panel panel-default loginTalkPanelLogin">
@@ -80,7 +82,7 @@
         
                                 <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }} ">
                                     <div class="loginTalkFormDiv">
-                                        <label for="email" class="col-md-4 control-label">REG</label>
+                                        <label for="email" class="col-md-4 control-label"></label>
                                         <input id="email" type="email" class="col-md-6 mr-auto" name="email" value="{{ old('email') }}" required autofocus>
         
                                         @if ($errors->has('email'))

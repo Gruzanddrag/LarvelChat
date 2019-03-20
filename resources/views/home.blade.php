@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <img src="{{asset("/images/FotoWithGrad.png")}}" class="header-img">
+    <img src="{{asset('/images/FotoWithGrad.png')}}" class="header-img">
     <div class="container mainInfo">
         <div class="row">
             <div class="col-12 text-center">

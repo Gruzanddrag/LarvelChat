@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-.nav-tabs{
+.nav-tabs {
     font-size: 2em;
     font-weight: bold;
     border:none;
@@ -29,13 +29,13 @@
 .show{
     color: black;
 }
-.nav-tabs > .nav-item > .nav-link{
+.nav-tabs >  .nav-item > .nav-link{
     border-radius: 0.5em 0.5em 0em 0em;
     border:none;
 }
 
 
-.nav-tabs > .nav-item > .nav-link:hover{
+.nav-tabs >  .nav-item > .nav-link:hover{
     border:none;
 }
 
@@ -47,11 +47,11 @@
     padding: 0;
 }
 
-.tab-pane > .row{
+.tab-pane > .row  > .row{
     margin-top:0.5em; 
     font-size: 1.5em;
 }
-.tab-pane > .row > a{
+.tab-pane > .row  > .row > a{
     color: #ABABAB;
 }
 /* ENDTAB */
@@ -123,6 +123,10 @@
     background-position: center -7em;
     filter: blur(5px) brightness(1.5) contrast(0.7);
     z-index:10;
+}
+
+.regTalkLable{
+    font-weight: lighter;
 }
 /* ENDFORM */
 
