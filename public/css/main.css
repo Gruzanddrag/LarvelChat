@@ -8,11 +8,6 @@ body{
     margin-bottom: 4em;
 }
 
-.contentTalk{
-    position: relative;
-    min-height: 120%;
-}
-
 ::-webkit-scrollbar {width: 0;}
 
 @media (max-width: 770px){
@@ -28,6 +23,10 @@ hr{
     height: 3px;
     margin: 3em 0;
     background-image: linear-gradient(90deg, #CE3737 , #4B40E1);
+}
+
+.talkContainer{
+    min-height: 100vh;
 }
 
 .fontWhite{
@@ -49,6 +48,10 @@ hr{
     font-size: 1.5em;
 }
 
+.mainInfo > .row:last-child{
+    padding-bottom: 5em;
+}
+
 .btnTalk{
     background-color: rgba(0,0,0,0);
     color:white;
@@ -56,7 +59,6 @@ hr{
     padding: 0.8em 1em;
     border-radius: 0.9em; 
     border:3px solid white;
-    margin-bottom: 10em;
 }
 .btnTalk:hover{
     color:white;
@@ -67,8 +69,6 @@ hr{
 }
 
 .footerTalk{
-    position: relative;
-    top:20vh;
     background-color: #262626;
 }
 

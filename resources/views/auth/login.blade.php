@@ -2,14 +2,14 @@
 @extends('layouts.app')
 
 <style>
+
     body{
         background-image: url("/./images/Group10.png");
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
     }
-    .footerTalk{
-        top:40vh;
-    }
+    
 </style>
 
 @section('content')
@@ -24,11 +24,11 @@
             </li>
         </ul>
     </div>
-    <div class="row justify-content-center col-12">
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active " id="login" role="tabpanel" aria-labelledby="login-tab">
-                <div class="row justify-content-center col-12">
-                    <div class="panel panel-default loginTalkPanelLogin">
+    <div class="row">
+        <div class="tab-content col-12" id="myTabContent">
+            <div class="tab-pane fade show active col-12" id="login" role="tabpanel" aria-labelledby="login-tab">
+                <div class="row justify-content-center" style="">
+                    <div class="panel panel-default col-md-8 col-lg-6 loginTalkPanelLogin">
                         <div class="loginTalkBlurLayout"></div>
                         <div class="panel-body">
                             <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -68,7 +68,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center col-12">
                     <a href="{{ route('password.request') }}">Forgot your password?</a>
                     </div>
                 </div>

@@ -36,28 +36,28 @@
     <link href="{{ asset('css/login.css') }}" rel="stylesheet"> 
 </head>
 <body>
-    <div class="contentTalk">
-    <div class="container">
-        <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand talkLogo fontWhite" href="{{ url('/')}}">Talk</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span style="color:white; font-size:2em;"><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="container">
-                    <ul class="navbar-nav justify-content-end">
-                        <li class="nav-item col-md-6 col-lg-4 text center ">
-                            <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('login') }}">Sign IN/Sign UP</a>
-                        </li>
-                        <li class="nav-item col-xl-2 col-md-4  text center">
-                                <a class="nav-link fontWhite headerNavBtn text-center" href="#">News</a>
-                        </li>
-                    </ul>
+    <div class="talkContainer">
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand talkLogo fontWhite" href="{{ url('/')}}">Talk</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span style="color:white; font-size:2em;"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="container">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item col-md-6 col-lg-4 text center ">
+                                <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('login') }}">Sign IN/Sign UP</a>
+                            </li>
+                            <li class="nav-item col-xl-2 col-md-4  text center">
+                                    <a class="nav-link fontWhite headerNavBtn text-center" href="#">News</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-        @yield('content')
+            </nav>
+        </div>
+            @yield('content')
     </div>
     <div class="container-fluid footerTalk">
         <nav class="navbar navbar-expand-md justify-content-center">
