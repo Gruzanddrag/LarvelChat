@@ -46,8 +46,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="container">
                         <ul class="navbar-nav justify-content-end">
-                            <li class="nav-item col-md-6 col-lg-4 text center ">
-                                <a class="nav-link fontWhite headerNavBtn text-center" href="{{ route('login') }}">Sign IN/Sign UP</a>
+                            <li class="nav-item col-md-6 col-lg-4 text center">
+                            <a class="nav-link fontWhite headerNavBtn text-center " href="{{ route('login') }}">Sign IN/Sign UP</a>
                             </li>
                             <li class="nav-item col-xl-2 col-md-4  text center">
                                     <a class="nav-link fontWhite headerNavBtn text-center" href="#">News</a>
